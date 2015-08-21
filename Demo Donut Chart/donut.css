@@ -1,0 +1,90 @@
+.legend {                                                  
+	font-size: 12px;                                       
+}                                                          
+rect {                                                     
+	stroke-width: 2;
+	cursor: pointer;                                       
+}
+rect.disabled {                              
+	fill: transparent !important;              
+}
+#chart {
+	height: 360px;
+	margin: 0 auto;
+	position: relative;
+	width: 360px;
+	padding: 30px 0px;
+}
+.tooltip,
+.barTooltip,
+.segTooltip {
+		background: #eee;
+		box-shadow: 0 0 5px #999999;
+		color: #ffffff;
+		display: none;
+		font-size: 12px;
+		left: 130px;
+		padding: 10px;
+		position: absolute;
+		text-align: center;
+		top: 95px;
+		width: 80px;
+		z-index: 10;
+		cursor: pointer;
+}
+h1 {
+		font-size: 14px; 
+		text-align: center;
+}
+.color {
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	fill: rgb(206, 219, 156); 
+	stroke: rgb(82, 84, 163);
+	display: block;
+}
+#barChart {
+	padding: 30px 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+.stack {
+	margin: 0 auto;
+}
+#segmentChart,
+#segmentSvg {
+    text-align: center;
+    margin: 0 auto;
+} 
+.barLegend {
+	line-height: 10px;
+	height: 15px;
+}
+
+
+.chart .segLegend {
+	fill: black;
+	font: 14px sans-serif;
+	text-anchor: start;
+	font-size: 12px;
+}
+
+.chart text {
+	fill: white;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.chart .label {
+	fill: black;
+	font: 14px sans-serif;
+	text-anchor: end;
+}
+
+	/*.axis path,
+	.axis line {
+	  	fill: none;
+	  	stroke: #000;
+	  	shape-rendering: crispEdges;
+	}*/
